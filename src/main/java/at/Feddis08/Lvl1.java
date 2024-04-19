@@ -2,7 +2,7 @@ package at.Feddis08;
 
 import java.io.*;
 
-public class Template {
+public class Lvl1 {
 
     public static String savePath = "./res/";
     public static String levelName = "test.txt";

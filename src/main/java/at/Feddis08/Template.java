@@ -12,7 +12,7 @@ public class Template {
         System.out.println(getFile(savePath + "./test.txt"));
         instruction = getFile(savePath + levelName);
 
-        saveToFile(savePath + levelName, result);
+        saveToFile(savePath + levelName, result + ".new");
 
     }
     private static void saveToFile(String filePath, String data) {

@@ -10,9 +10,9 @@ public class Template {
     public static String instruction = "";
     public static void main(String[] args) throws IOException {
         System.out.println(getFile(savePath + "./test.txt"));
-        result = getFile(savePath + levelName);
+        instruction = getFile(savePath + levelName);
 
-        saveToFile(savePath + levelName, instruction);
+        saveToFile(savePath + levelName, result);
 
     }
     private static void saveToFile(String filePath, String data) {

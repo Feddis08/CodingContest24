@@ -5,7 +5,7 @@ import java.io.*;
 public class Template {
 
     public static String savePath = "./res/";
-    public static String levelName = "test.txt";
+    public static String levelName = "level1_1.in";
     public static String result = "";
     public static String instruction = "";
     public static void main(String[] args) throws IOException {

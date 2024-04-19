@@ -5,11 +5,15 @@ import java.io.*;
 public class Template {
 
     public static String savePath = "./res/";
-
+    public static String levelName = "Level1.txt";
     public static String result = "";
     public static String instruction = "";
     public static void main(String[] args) throws IOException {
         System.out.println(getFile(savePath + "./test.txt"));
+        result = getFile(savePath + levelName);
+
+        saveToFile(savePath + levelName, instruction);
+
     }
     private static void saveToFile(String filePath, String data) {
         PrintWriter writer = null;
